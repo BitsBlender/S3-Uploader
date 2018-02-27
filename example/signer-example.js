@@ -94,3 +94,4 @@ var dateString = () => {
     var date = new Date().toISOString();
     return date.substr(0, 4) + date.substr(5, 2) + date.substr(8, 2);
 }
+app.listen(PORT, () => console.log('Example app listening'))
